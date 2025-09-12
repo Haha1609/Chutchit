@@ -1,6 +1,6 @@
 file_format: "1"
-id: Chutchit
-name: Chutchit
+id: chutchit
+name: chutchit
 type: shield
 url: https://github.com/Haha1609/chutchit
 type: board
@@ -18,3 +18,4 @@ siblings:
   - chutchit_right
 
   
+
