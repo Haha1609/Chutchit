@@ -50,4 +50,21 @@ As such, those are in use within the default layer at this time.*/
 / {
     keymap {
         compatible = "zmk,keymap"; 
-        
+                default_layer {
+            bindings = <
+            &none	&none	&none	&none	&none	&none	&none				&none	&none	&none	&none	&none	&none	&none
+            &none	&none	&none	&none	&none	&none	&none				&none	&none	&none	&none	&none	&none	&none
+            &none	&none	&none	&none	&none	&none	&none				&none	&none	&none	&none	&none	&none	&none
+            &none	&none	&none	&none	&none	&none	&none				&none	&none	&none	&none	&none	&none	&none
+            &none	&none	&none	&none	&none	&none	&none				&none	&none	&none	&none	&none	&none	&none
+            &none	&none	&none	&none	&none	&none						        &none	&none	&none	&none	&none	&none
+                    &none	&none	&none	&none	&none						        &none	&none	&none	&none	&none	
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+     };
+};
+
