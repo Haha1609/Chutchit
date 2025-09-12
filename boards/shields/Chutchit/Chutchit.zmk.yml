@@ -1,8 +1,8 @@
 file_format: "1"
-id: chutchit
-name: chutchit
+id: Chutchit
+name: Chutchit
 type: shield
-url: https://github.com/Haha1609/chutchit
+url: https://github.com/Haha1609/Chutchit
 type: board
 arch: arm
 output:
@@ -14,8 +14,8 @@ features:
   - pointer
   - encoder
 siblings:
-  - chutchit_left
-  - chutchit_right
+  - Chutchit_left
+  - Chutchit_right
 
   
 
