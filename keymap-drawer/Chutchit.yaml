@@ -2,6 +2,7 @@ layout: {zmk_keyboard: Chutchit}
 layers:
   default:
   - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -14,7 +15,6 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
