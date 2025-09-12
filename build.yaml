@@ -19,12 +19,12 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Chutchit_left
+    shield: chutchit_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
 
   - board: nice_nano_v2
-    shield: Chutchit_right
+    shield: chutchit_right
   
 
   - board: nice_nano_v2
