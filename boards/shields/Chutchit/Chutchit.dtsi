@@ -3,7 +3,8 @@
 
 / {
     chosen {
-    // zmk,kscan = &kscan_composite;    //for merge matrix only
+    // zmk,kscan = &kscan_composite;    //for merge matrix onl
+    zmk,kscan = &kscan0; 
     zmk,physical-layout = &physical_layout;
     zmk,battery = &vbatt;
     //	zephyr,console = &cdc_acm_uart;
