@@ -1,0 +1,20 @@
+file_format: "1"
+id: Chutchit
+name: Chutchit
+type: shield
+url: https://github.com/Haha1609/Chutchit
+type: board
+arch: arm
+output:
+  - usb
+  - ble
+features:
+  - keys
+  - studio
+  - pointer
+  - encoder
+siblings:
+  - Chutchit_left
+  - Chutchit_right
+
+  
