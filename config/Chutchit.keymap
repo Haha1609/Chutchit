@@ -75,7 +75,7 @@ As such, those are in use within the default layer at this time.*/
            &kp LEFT   &kp UP    &kp K_PLAY_PAUSE  &kp DOWN   &kp RIGHT                  &kp LEFT   &kp DOWN   &kp K_PLAY_PAUSE  &kp UP     &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp A B &inc_dec_kp PG_DN PG_UP>;
         };
 
         layer_1 {
