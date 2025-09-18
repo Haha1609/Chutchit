@@ -128,7 +128,7 @@ encoder_left: &qdec0 {
     steps = <24>;
     pinctrl-0 = <&qdec_default>;
     pinctrl-1 = <&qdec_sleep>;
-    pinctrl-names = "default";
+    pinctrl-names = "default", "sleep";
 };
 
 
