@@ -47,7 +47,7 @@ As such, those are in use within the default layer at this time.*/
     flavor = "balanced";
 };
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 500   // mousescroll SPEED
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 900   // mousescroll SPEED
 
 / {
     behaviors {
