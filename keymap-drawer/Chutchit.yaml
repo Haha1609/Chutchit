@@ -83,11 +83,11 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB3'
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
-  - PLAY PAUSE
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - PLAY PAUSE
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PLAY PAUSE
