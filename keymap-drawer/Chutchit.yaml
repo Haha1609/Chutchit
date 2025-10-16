@@ -44,7 +44,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '&mkp MB2'
-  - $$mdi:apple-keyboard-caps$$
+  - {t: INS, h: PAUSE BREAK}
   - A
   - S
   - D
