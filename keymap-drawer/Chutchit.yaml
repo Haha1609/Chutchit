@@ -29,7 +29,7 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: Ctl+C, h: C}
+  - {t: Ctl+C, h: Ctl+X}
   - $$mdi:keyboard-tab$$
   - Q
   - W
