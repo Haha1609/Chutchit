@@ -2,7 +2,7 @@ layout: {zmk_keyboard: Chutchit}
 layers:
   default:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - {t: '-', s: _}
+  - {t: '-', h: ., s: _}
   - F1
   - F2
   - F3
@@ -17,10 +17,10 @@ layers:
   - F12
   - {t: Ctl+V, h: V}
   - {t: '0', s: )}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - {t: '1', h: '6', s: '!'}
+  - {t: '2', h: '7', s: '@'}
+  - {t: '3', h: '8', s: '#'}
+  - {t: '4', h: '9', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
