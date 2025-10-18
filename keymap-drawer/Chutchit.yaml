@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: Chutchit}
 layers:
   default:
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '-', h: ., s: _}
   - F1
   - F2
   - F3
@@ -15,12 +15,12 @@ layers:
   - F10
   - F11
   - F12
-  - $$mdi:keyboard-space$$
-  - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - {t: Ctl+V, h: V}
+  - {t: '0', s: )}
+  - {t: '1', h: '6', s: '!'}
+  - {t: '2', h: '7', s: '@'}
+  - {t: '3', h: '8', s: '#'}
+  - {t: '4', h: '9', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
@@ -29,7 +29,7 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:keyboard-space$$
+  - {t: Ctl+C, h: Ctl+X}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -43,8 +43,8 @@ layers:
   - P
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-caps$$
+  - '&mkp MB2'
+  - {t: INS, h: PAUSE BREAK}
   - A
   - S
   - D
@@ -57,8 +57,8 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-shift$$
+  - '&mkp MB1'
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -70,18 +70,18 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&mkp MB3'
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
+  - '1'
   - '&mkp MB1'
   - '&mkp MB2'
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - '&mkp MB3'
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-up-bold$$
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
