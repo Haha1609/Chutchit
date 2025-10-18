@@ -76,7 +76,7 @@ As such, those are in use within the default layer at this time.*/
                  &kp RIGHT_ARROW      &kp UP     &kp DOWN   &kp K_PLAY_PAUSE  &kp LEFT_ARROW                  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp K_PLAY_PAUSE  &mmv MOVE_UP  &mmv MOVE_RIGHT
             >;
 
-            sensor-bindings = <&MouseScroll>, <&inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&MouseScroll>, <&MouseScroll>;
         };
 
         layer_1 {
