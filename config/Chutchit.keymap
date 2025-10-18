@@ -86,7 +86,7 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans    &trans  &trans  &trans           &kp K_PLAY_PAUSE
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans    &trans  &trans  &trans           &mt K_MUTE C_PLAY_PAUSE
         &trans  &trans  &trans  &trans  &trans                  &kp LEFT_ARROW  &kp DOWN  &trans  &kp UP  &kp RIGHT_ARROW
             >;
 
