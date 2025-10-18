@@ -81,16 +81,18 @@ As such, those are in use within the default layer at this time.*/
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans    &trans  &trans  &trans           &kp K_PLAY_PAUSE
+        &trans  &trans  &trans  &trans  &trans                  &kp LEFT_ARROW  &kp DOWN  &trans  &kp UP  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&MouseScroll &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings =
+                <&MouseScroll>,
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
