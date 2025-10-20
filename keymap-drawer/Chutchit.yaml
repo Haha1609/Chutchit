@@ -49,11 +49,11 @@ layers:
   - {t: S, h: LEFT WIN}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - F
-  - {t: MENU, h: G}
+  - {t: G, h: MENU}
   - {t: H, h: MENU}
   - J
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: RWIN}
+  - {t: L, h: LEFT WIN}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
@@ -74,8 +74,8 @@ layers:
   - '&mkp MB3'
   - $$mdi:apple-keyboard-control$$
   - LGUI
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - '1'
