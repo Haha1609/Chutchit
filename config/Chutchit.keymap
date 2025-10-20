@@ -74,13 +74,13 @@ As such, those are in use within the default layer at this time.*/
 
         default_layer {
             bindings = <
-&mt CAPS ESC     &TD01                &kp F1       &kp F2          &kp F3            &kp F4          &kp F5        &kp F6        &kp F7          &kp F8           &kp F9            &kp F10         &kp F11          &kp F12
-&mt LG(V) LC(V)  &kp N0               &mt N6 N1    &mt N7 N2       &mt N8 N3         &mt N9 N4       &kp N5        &kp N6        &kp N7          &kp N8           &kp N9            &kp N0          &kp MINUS        &kp EQUAL
-&mt LC(X) LC(C)  &kp TAB              &kp Q        &kp W           &kp E             &kp R           &kp T         &kp Y         &kp U           &kp I            &kp O             &kp P           &kp LBKT         &kp RBKT
-&mkp MB2         &mt PAUSE_BREAK INS  &mt LCTRL A  &mt LEFT_WIN S  &mt LEFT_ALT D    &kp F           &mt G C_MENU  &mt C_MENU H  &kp J           &mt RIGHT_ALT K  &mt RWIN L        &mt RCTRL SEMI  &kp APOS         &kp BSLH
-&mkp MB1         &mt LSHFT ENTER      &kp Z        &kp X           &kp C             &kp V           &kp B         &kp N         &kp M           &kp COMMA        &kp DOT           &kp FSLH        &mt RSHFT ENTER  &kp BACKSPACE
-&mkp MB3         &kp LCTRL            &kp LGUI     &kp LALT        &kp DEL           &kp SPACE                                   &kp SPACE       &mo 1            &mkp MB1          &mkp MB2        &kp DEL          &mkp MB3
-                 &kp RIGHT_ARROW      &kp UP       &kp DOWN        &kp K_PLAY_PAUSE  &kp LEFT_ARROW                              &mmv MOVE_LEFT  &mmv MOVE_DOWN   &kp K_PLAY_PAUSE  &mmv MOVE_UP    &mmv MOVE_RIGHT
+&mt CAPS ESC     &TD01                &kp F1       &kp F2          &kp F3            &kp F4          &kp F5        &kp F6        &kp F7          &kp F8          &kp F9            &kp F10         &kp F11          &kp F12
+&mt LG(V) LC(V)  &kp N0               &mt N6 N1    &mt N7 N2       &mt N8 N3         &mt N9 N4       &kp N5        &kp N6        &kp N7          &kp N8          &kp N9            &kp N0          &kp MINUS        &kp EQUAL
+&mt LC(X) LC(C)  &kp TAB              &kp Q        &kp W           &kp E             &kp R           &kp T         &kp Y         &kp U           &kp I           &kp O             &kp P           &kp LBKT         &kp RBKT
+&mkp MB2         &mt PAUSE_BREAK INS  &mt LCTRL A  &mt LEFT_WIN S  &mt LEFT_ALT D    &kp F           &mt C_MENU G  &mt C_MENU H  &kp J           &mt LEFT_ALT K  &mt LEFT_WIN L    &mt LCTRL SEMI  &kp APOS         &kp BSLH
+&mkp MB1         &mt LSHFT ENTER      &kp Z        &kp X           &kp C             &kp V           &kp B         &kp N         &kp M           &kp COMMA       &kp DOT           &kp FSLH        &mt RSHFT ENTER  &kp BACKSPACE
+&mkp MB3         &kp LCTRL            &kp LGUI     &kp DEL         &kp BACKSPACE     &kp SPACE                                   &kp SPACE       &mo 1           &mkp MB1          &mkp MB2        &kp DEL          &mkp MB3
+                 &kp RIGHT_ARROW      &kp UP       &kp DOWN        &kp K_PLAY_PAUSE  &kp LEFT_ARROW                              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp K_PLAY_PAUSE  &mmv MOVE_UP    &mmv MOVE_RIGHT
             >;
 
             sensor-bindings = <&MouseScroll>, <&MouseScroll>;
