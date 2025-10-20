@@ -2,7 +2,7 @@ layout: {zmk_keyboard: Chutchit}
 layers:
   default:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - {t: '-', h: ., s: _}
+  - '&TD01'
   - F1
   - F2
   - F3
@@ -45,18 +45,18 @@ layers:
   - {t: ']', s: '}'}
   - '&mkp MB2'
   - {t: INS, h: PAUSE BREAK}
-  - A
-  - S
-  - D
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: LEFT WIN}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - F
-  - G
-  - H
+  - {t: MENU, h: G}
+  - {t: H, h: MENU}
   - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: RWIN}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: \, s: '|'}
   - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
@@ -69,7 +69,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB3'
   - $$mdi:apple-keyboard-control$$
