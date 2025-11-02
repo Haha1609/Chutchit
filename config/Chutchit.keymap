@@ -11,7 +11,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
 #define LOWER  1
@@ -53,9 +52,9 @@ As such, those are in use within the default layer at this time.*/
 
 / {
     behaviors {
-        MouseScroll: MouseScroll {
+        Scroll_DU: Scroll_DU {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "MOUSESCROLL";
+            label = "SCROLL_DU";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
@@ -69,14 +68,13 @@ As such, those are in use within the default layer at this time.*/
             bindings = <&kp MINUS>, <&kp PERIOD>;
         };
 
-        KpMomentLayer: KpMomentLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "KPMOMENTLAYER";
-            bindings = <&mo>, <&kp>;
+        Scroll_UD: Scroll_UD {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_UD";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "balanced";
+            tap-ms = <20>;
         };
     };
 
@@ -85,16 +83,16 @@ As such, those are in use within the default layer at this time.*/
 
         default_layer {
             bindings = <
-&mt CAPS ESC     &TD01                &kp F1       &kp F2          &kp F3            &kp F4                  &kp F5        &kp F6        &kp F7          &kp F8          &kp F9            &kp F10         &kp F11          &kp F12
-&mt LG(V) LC(V)  &kp N0               &mt N6 N1    &mt N7 N2       &mt N8 N3         &mt N9 N4               &kp N5        &kp N6        &kp N7          &kp N8          &kp N9            &kp N0          &kp MINUS        &kp EQUAL
-&mt LC(X) LC(C)  &kp TAB              &kp Q        &kp W           &kp E             &kp R                   &kp T         &kp Y         &kp U           &kp I           &kp O             &kp P           &kp LBKT         &kp RBKT
-&mkp MB2         &mt PAUSE_BREAK INS  &mt LCTRL A  &mt LEFT_WIN S  &mt LEFT_ALT D    &kp F                   &mt C_MENU G  &mt C_MENU H  &kp J           &mt LEFT_ALT K  &mt LEFT_WIN L    &mt LCTRL SEMI  &kp APOS         &kp BSLH
-&mkp MB1         &mt LSHFT ENTER      &kp Z        &kp X           &kp C             &kp V                   &kp B         &kp N         &kp M           &kp COMMA       &kp DOT           &kp FSLH        &mt RSHFT ENTER  &kp BACKSPACE
-&mkp MB3         &kp LCTRL            &kp LGUI     &kp DEL         &kp BACKSPACE     &KpMomentLayer 1 SPACE                              &kp SPACE       &mo 1           &mkp MB1          &mkp MB2        &kp DEL          &mkp MB3
-                 &kp RIGHT_ARROW      &kp UP       &kp DOWN        &kp K_PLAY_PAUSE  &kp LEFT_ARROW                                      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp K_PLAY_PAUSE  &mmv MOVE_UP    &mmv MOVE_RIGHT
+&mt CAPS ESC     &TD01                &kp F1       &kp F2          &kp F3            &kp F4          &kp F5       &kp F6       &kp F7          &kp F8          &kp F9            &kp F10         &kp F11          &kp F12
+&mt LG(V) LC(V)  &kp N0               &mt N6 N1    &mt N7 N2       &mt N8 N3         &mt N9 N4       &kp N5       &kp N6       &kp N7          &kp N8          &kp N9            &kp N0          &kp MINUS        &kp EQUAL
+&mt LC(X) LC(C)  &kp TAB              &kp Q        &kp W           &kp E             &kp R           &kp T        &kp Y        &kp U           &kp I           &kp O             &kp P           &kp LBKT         &kp RBKT
+&mkp MB2         &mt PAUSE_BREAK INS  &mt LCTRL A  &mt LEFT_WIN S  &mt LEFT_ALT D    &kp F           &mt LCTRL G  &mt LCTRL H  &kp J           &mt LEFT_ALT K  &mt LEFT_WIN L    &mt LCTRL SEMI  &kp APOS         &kp BSLH
+&mkp MB1         &mt LSHFT ENTER      &kp Z        &kp X           &kp C             &kp V           &kp B        &kp N        &kp M           &kp COMMA       &kp DOT           &kp FSLH        &mt RSHFT ENTER  &kp BACKSPACE
+&mkp MB3         &kp LCTRL            &kp LGUI     &kp DEL         &kp BACKSPACE     &lt 1 SPACE                               &kp SPACE       &mo 1           &mkp MB1          &mkp MB2        &kp DEL          &mkp MB3
+                 &kp RIGHT_ARROW      &kp UP       &kp DOWN        &kp K_PLAY_PAUSE  &kp LEFT_ARROW                            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp K_PLAY_PAUSE  &mmv MOVE_UP    &mmv MOVE_RIGHT
             >;
 
-            sensor-bindings = <&MouseScroll>, <&MouseScroll>;
+            sensor-bindings = <&Scroll_DU>, <&Scroll_DU>;
         };
 
         layer_1 {
@@ -108,9 +106,7 @@ As such, those are in use within the default layer at this time.*/
         &trans  &trans  &trans  &trans  &trans                  &kp LEFT_ARROW  &kp DOWN  &trans  &kp UP  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings =
-                <&MouseScroll>,
-                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&Scroll_DU>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
@@ -124,7 +120,7 @@ As such, those are in use within the default layer at this time.*/
         &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&MouseScroll &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&Scroll_DU>, <&inc_dec_kp PG_DN PG_UP>;
         };
 
         layer_3 {
@@ -138,7 +134,7 @@ As such, those are in use within the default layer at this time.*/
         &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&MouseScroll &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&Scroll_DU>, <&inc_dec_kp PG_DN PG_UP>;
         };
 
         layer_4 {
