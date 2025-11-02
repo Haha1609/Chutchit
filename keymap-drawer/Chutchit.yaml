@@ -49,8 +49,8 @@ layers:
   - {t: S, h: LEFT WIN}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - F
-  - {t: G, h: MENU}
-  - {t: H, h: MENU}
+  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - J
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: LEFT WIN}
