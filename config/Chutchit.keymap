@@ -45,7 +45,7 @@ As such, those are in use within the default layer at this time.*/
 
 &mt {
     tapping-term-ms = <300>;
-    flavor = "tap-preferred";
+    flavor = "balanced";
 };
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
@@ -74,6 +74,24 @@ As such, those are in use within the default layer at this time.*/
             label = "SCROLL_UD";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
+
+        Scroll_LR: Scroll_LR {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_LR";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+
+            tap-ms = <20>;
+        };
+
+        Scroll_RL: Scroll_RL {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_RL";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
 
             tap-ms = <20>;
         };
@@ -117,7 +135,7 @@ As such, those are in use within the default layer at this time.*/
         &trans  &trans  &trans  &trans  &trans                  &kp LEFT_ARROW  &kp DOWN  &trans  &kp UP  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&Scroll_DU>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&Scroll_LR>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
