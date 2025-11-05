@@ -83,11 +83,11 @@ layers:
   - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
   - '&mkp MB3'
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - PLAY PAUSE
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PLAY PAUSE
@@ -465,3 +465,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [62, 63]
+  k: BT CLR ALL
+  l: ['1']
