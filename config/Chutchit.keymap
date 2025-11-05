@@ -135,7 +135,7 @@ As such, those are in use within the default layer at this time.*/
         &trans  &trans  &trans  &trans  &trans                  &kp LEFT_ARROW  &kp DOWN  &trans  &kp UP  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&Scroll_LR>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&Scroll_RL>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
