@@ -121,7 +121,7 @@ As such, those are in use within the default layer at this time.*/
                  &kp LEFT             &kp UP       &kp DOWN        &kp K_PLAY_PAUSE  &kp RIGHT                              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp K_PLAY_PAUSE  &mmv MOVE_UP    &mmv MOVE_RIGHT
             >;
 
-            sensor-bindings = <&Scroll_DU>, <&Scroll_DU>;
+            sensor-bindings = <&Scroll_DU>, <&Scroll_UD>;
         };
 
         layer_1 {
