@@ -43,8 +43,8 @@ layers:
   - P
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&mkp MB2'
-  - {t: INS, h: PAUSE BREAK}
+  - LEFT WIN
+  - {t: '$$mdi:apple-keyboard-option$$', h: PAUSE BREAK}
   - A
   - S
   - D
@@ -57,7 +57,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
-  - '&mkp MB1'
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
@@ -72,8 +72,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB3'
-  - $$mdi:apple-keyboard-control$$
-  - LGUI
+  - '&mkp MB1'
+  - '&mkp MB2'
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
