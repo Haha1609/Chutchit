@@ -44,7 +44,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - LEFT WIN
-  - {t: '$$mdi:apple-keyboard-option$$', h: PAUSE BREAK}
+  - $$mdi:apple-keyboard-option$$
   - A
   - S
   - D
