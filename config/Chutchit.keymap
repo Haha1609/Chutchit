@@ -119,7 +119,7 @@ As such, those are in use within the default layer at this time.*/
 &mt LC(X) LC(C)  &kp TAB                   &kp Q      &kp W             &kp E           &kp R            &kp T         &kp Y   &kp U           &kp I           &kp O             &kp P         &kp LBKT         &kp RBKT
 &kp LEFT_WIN     &mt PAUSE_BREAK LEFT_ALT  &kp A      &kp S             &kp D           &kp F            &kp G         &kp H   &kp J           &kp K           &kp L             &kp SEMI      &kp APOS         &kp BSLH
 &kp LCTRL        &mt LSHFT ENTER           &kp Z      &kp X             &kp C           &kp V            &kp B         &kp N   &kp M           &kp COMMA       &kp DOT           &kp FSLH      &kp RSHFT        &kp BSPC
-&mkp MB3         &mkp MB1                  &mkp MB2   &kp LALT          &kp BSPC        &lt 1 SPACE                            &lt 2 SPACE     &lt 1 ENTER     &mkp MB1          &mkp MB2      &kp DEL          &mkp MB3
+&mkp MB3         &mkp MB1                  &mkp MB2   &kp DEL           &kp BSPC        &lt 1 SPACE                            &lt 2 SPACE     &lt 1 ENTER     &mkp MB1          &mkp MB2      &kp DEL          &mkp MB3
                  &kp LEFT_ARROW            &kp UP     &kp C_PLAY_PAUSE  &kp DOWN_ARROW  &kp RIGHT_ARROW                        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp C_PLAY_PAUSE  &mmv MOVE_UP  &mmv MOVE_RIGHT
             >;
 
