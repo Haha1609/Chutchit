@@ -74,7 +74,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
