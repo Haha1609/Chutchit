@@ -2,7 +2,7 @@ layout: {zmk_keyboard: Chutchit}
 layers:
   default:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - '&Td_01'
+  - {t: PAUSE BREAK, h: '~'}
   - F1
   - F2
   - F3
