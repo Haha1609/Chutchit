@@ -72,10 +72,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - {t: '$$mdi:keyboard-return$$', h: '1'}
@@ -376,3 +376,9 @@ combos:
 - p: [6, 7]
   k: BT CLR ALL
   l: ['1']
+- p: [31, 32]
+  k: (
+  l: [default]
+- p: [32, 33]
+  k: )
+  l: [default]
