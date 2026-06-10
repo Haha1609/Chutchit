@@ -2,36 +2,24 @@ layout: {zmk_keyboard: Chutchit}
 layers:
   default:
   - $$mdi:keyboard-esc$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - $$mdi:printer-outline$$
-  - HOME
-  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '-', s: _}
-  - {t: '=', s: +}
+  - Sft++
   - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - $$mdi:backspace-reverse-outline$$
-  - PgUp
+  - KP NUMLOCK
+  - KP DIVIDE
+  - KP MULTIPLY
+  - KP MINUS
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -45,8 +33,12 @@ layers:
   - P
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - PgDn
+  - {t: \, s: '|'}
+  - HOME
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -60,51 +52,45 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Ins
+  - PgUp
+  - KP 4
+  - KP 5
+  - KP 6
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-up-bold$$
+  - PgDn
+  - KP 1
+  - KP 2
+  - KP 3
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '6', s: ^}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-left-bold$$
+  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-up-bold$$
-  - PLAY PAUSE
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - PLAY PAUSE
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - KP 0
+  - $$mdi:backspace-reverse-outline$$
   '1':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -284,21 +270,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   '3':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
