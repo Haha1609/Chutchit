@@ -25,6 +25,9 @@ include:
 
   - board: nice_nano
     shield: Chutchit_right
+
+  - board: nice_nano
+    shield: Chutchit_num
   
 
   - board: nice_nano

@@ -6,4 +6,8 @@ config SHIELD_CHUTCHIT_LEFT
 config SHIELD_CHUTCHIT_RIGHT
     def_bool $(shields_list_contains,Chutchit_right)
 
+# No whitespace after the comma or in your part name!
+config SHIELD_CHUTCHIT_NUM
+    def_bool $(shields_list_contains,Chutchit_num)
+
 CONFIG_ZMK_SOFT_OFF=y
